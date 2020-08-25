@@ -336,11 +336,11 @@
 
 - name: Stack Overflow
   url: https://stackoverflow.com
-  base_pricing: $5 per u/m
-  sso_pricing: $11 per u/m
-  percent_increase: 120%
+  base_pricing: $6 per u/m
+  sso_pricing: $12 per u/m
+  percent_increase: 100%
   pricing_source: https://stackoverflow.com/pricing
-  updated_at: 2019-06-24
+  updated_at: 2020-08-25
 
 - name: SumoLogic
   url: https://www.sumologic.com
@@ -354,10 +354,11 @@
 - name: Trello
   url: https://trello.com
   base_pricing: $10 per u/m
-  sso_pricing: $21 per u/m
+  sso_pricing: $21 per u/m[^trello]
+  footnotes: "[^trello]: The SSO pricing includes the enterprise plan + the $3 per u/m of Atlassian Access that is needed for SAML SSO and 2FA.
   percent_increase: 110%
   pricing_source: https://trello.com/pricing
-  updated_at: 2018-10-17
+  updated_at: 2020-08-25
 
 - name: Twilio
   url: https://twilio.com
